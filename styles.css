@@ -1,0 +1,99 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  
+  min-width: 260px;
+}
+
+#main {
+  background-color: #eee;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-div {
+  margin-top: 20px;
+  width: 100%;
+  border: 5px solid white;
+  background: white;
+}
+
+
+#img-caption {
+  margin: 15px;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+ul, li {
+  padding: 5px;
+}
+
+blockquote {
+  max-width: 92%;
+  margin: auto;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.main-header {
+  padding: 30px 0px 20px;
+  line-height: 2;
+}
+
+
+
+
+#tribute-info {
+  margin: auto;
+  text-align: left;
+  padding: 20px 0 0 32.5%;
+}
+
+.wikilink {
+  padding-bottom: 60px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+/* Media Queries-------------*/
+
+
+@media (max-width: 1024px) {
+      #img-caption {
+          font-size: 13px;
+
+      }
+
+      #tribute-info {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      blockquote {
+        padding-top: 30px;
+      }
+
+      .main-header {
+        line-height: 1;
+      }
+
+}
